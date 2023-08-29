@@ -1,3 +1,7 @@
 /mylogs.log
-logs/
+# it will ignore mylogs.log from the directory but will track other files
+logs/ 
+# it will remove all file inside logs directory
 *.log
+# will ignore all the .log file 
+*.cpp
